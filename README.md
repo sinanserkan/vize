@@ -10,7 +10,6 @@
       <h2>İŞ KAYIT FORMU</h2>
       <form role="form" accept-charset="utf-8" action="ReadFormData" method="get">
       	<div class="container-fluid" align="right">
-			<img src="http://kamberkoyu.com/FileUpload/ds408563/File/profil.png" class="img-circle" name="id" >
 		</div><br>
         <div class="form-group"><br>
         	<label for="ex1">Adınız:</label>
