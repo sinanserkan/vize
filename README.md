@@ -1,0 +1,61 @@
+# vize
+<!DOCTYPE html>
+<html>
+<head>
+<title>CV HAZIRLAMA</title>
+</head>
+<body>
+	
+    <div class="container">
+      <h2>İŞ KAYIT FORMU</h2>
+      <form role="form" accept-charset="utf-8" action="ReadFormData" method="get">
+      	<div class="container-fluid" align="right">
+			<img src="http://kamberkoyu.com/FileUpload/ds408563/File/profil.png" class="img-circle" name="id" >
+		</div><br>
+        <div class="form-group"><br>
+        	<label for="ex1">Adınız:</label>
+        	<input class="form-control" id="ex1" type="text" name="param1">
+        </div>
+        <div class="form-group">
+        	<label for="ex2">Soyadınız:</label>
+        	<input class="form-control" id="ex2" type="text" name="param2"><br>
+      	</div>
+      	<div class="form-group">
+        	<label for="ex3">Doğum Tarihiniz:</label>
+        	<input class="form-control" id="ex3" type="date" name="param3">
+      	</div>
+     	 <div class="form-group">
+      		<label for="ex-4">Yaşınız:</label>
+      		<input class="form-control" id="ex-4" type="number" name="param4">
+      	</div>
+      	<div class="form-group">
+      		<label for="cinsiyet"> Cinsiyet: </label>
+      		&nbsp&nbsp
+			<input type="radio" name="erkek" /> Erkek
+			&nbsp&nbsp&nbsp
+			<input type="radio" name="bayan" /> Bayan<br>
+		</div>
+      	<div class="form-group">
+      		<label for="sel2">Yetenekleriniz:</label>
+      		<input type="checkbox" name="android" /> Android  &nbsp&nbsp
+			<input type="checkbox" name="java"  /> Java&nbsp&nbsp
+			<input type="checkbox" name="jsp"/>  JSP&Servlet&nbsp&nbsp
+			<input type="checkbox" name="html"/> HTML5/CSS3&nbsp&nbsp
+			<input type="checkbox" name="bootstrap"/> Bootstrap&nbsp&nbsp
+			<input type="checkbox" name="ajax"/> AJAX&nbsp&nbsp
+			<input type="checkbox" name="jquery"/>  JQuery&nbsp&nbsp
+			<input type="checkbox" name="hibernate"/> Hibernate&nbsp&nbsp
+			<input type="checkbox" name="sqlite"/> SQLite Database
+	  	</div>
+	  	<div class="form-group">
+      		<label for="ex-5">Adresiniz:</label>
+      		<input class="form-control" id="ex-5" type="text" name="param5">
+      	</div>
+	  	<div class="form-group">
+      		<label for="comment">Eklemek İstedikleriniz:</label>
+      		<textarea class="form-control" rows="5" id="comment" name="param13"></textarea>
+    	</div>
+        <button type="submit" class="btn btn-primary" align="center" >Kaydet</button>
+</form>
+</body>
+</html>
