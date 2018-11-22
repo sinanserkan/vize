@@ -13,19 +13,19 @@
 		</div><br>
         <div class="form-group"><br>
         	<label for="ex1">Adınız:</label>
-        	<input class="form-control" id="ex1" type="text" name="Sinan Serkan">
+        	<input class="form-control" id="ex1" type="text" name="param1">
         </div>
         <div class="form-group">
         	<label for="ex2">Soyadınız:</label>
-        	<input class="form-control" id="ex2" type="text" name="ÇAĞLI"><br>
+        	<input class="form-control" id="ex2" type="text" name="param2"><br>
       	</div>
       	<div class="form-group">
         	<label for="ex3">Doğum Tarihiniz:</label>
-        	<input class="form-control" id="ex3" type="date" name="02/07/1993">
+        	<input class="form-control" id="ex3" type="date" name="param3">
       	</div>
      	 <div class="form-group">
       		<label for="ex-4">Yaşınız:</label>
-      		<input class="form-control" id="ex-4" type="number" name="24">
+      		<input class="form-control" id="ex-4" type="number" name="param4">
       	</div>
       	<div class="form-group">
       		<label for="cinsiyet"> Cinsiyet: </label>
@@ -48,11 +48,11 @@
 	  	</div>
 	  	<div class="form-group">
       		<label for="ex-5">Adresiniz:</label>
-      		<input class="form-control" id="ex-5" type="text" name="Dokuz Eylül Üniversitesi İşletme Fafültesi">
+      		<input class="form-control" id="ex-5" type="text" name="param5">
       	</div>
 	  	<div class="form-group">
       		<label for="comment">Eklemek İstedikleriniz:</label>
-      		<textarea class="form-control" rows="5" id="comment" name="hakkınızda ekstra bilgi"></textarea>
+      		<textarea class="form-control" rows="5" id="comment" name="param13"></textarea>
     	</div>
         <button type="submit" class="btn btn-primary" align="center" >Kaydet</button>
 </form>
